@@ -4,6 +4,7 @@ program tsunami
 
     implicit none
 
+    ! Data declarations
     integer(kind=int32) :: i, n ! indicies in space and time
     integer(kind=int32), parameter :: im = 100 ! grid size in space
     integer(kind=int32), parameter :: nm = 100 ! number of time steps
